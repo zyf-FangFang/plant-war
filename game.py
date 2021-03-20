@@ -33,7 +33,7 @@ class Map():
         MainGame.window.blit(self.image, self.position)
 
 
-# 4 植物类
+# 4  植物类
 class Plant(pygame.sprite.Sprite):
     def __init__(self):
         super(Plant, self).__init__()
